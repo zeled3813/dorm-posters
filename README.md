@@ -66,9 +66,9 @@ In order to make the image `364px` tall, we need to add `55.5px` of padding to t
 Luckily, we can give `padding` 1-4 inputs, and here's how it will use 1/2/3/4 numbers.
 ```
 (1 input)  padding: all;
-(2 inputs) padding: top/bottom left/right;
-(3 inputs) padding: top left/right bottom;
-(4 inputs) padding: top right bottom left;
+(2 inputs) padding: topAndBottomNumber leftAndRightNumber;
+(3 inputs) padding: topNumber leftAndRightNumber bottomNumber;
+(4 inputs) padding: topNumber rightNumber bottomNumber leftNumber;
 ```
 
 _(The same applies to_ `margin` _)_  
