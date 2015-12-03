@@ -64,7 +64,7 @@ If we want this image to be 236px wide, we need to add `32.5px` of padding to th
 In order to make the image `364px` tall, we need to add `55.5px` of padding to the bottom and the top.
 
 Luckily, we can give `padding` 1-4 inputs, and here's how it will use 1/2/3/4 numbers.
-```css
+```
 (1 input)  padding: all;
 (2 inputs) padding: top/bottom left/right;
 (3 inputs) padding: top left/right bottom;
