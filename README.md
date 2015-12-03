@@ -12,7 +12,7 @@ This becomes really important as you start to select your roommate for college. 
 ### Step 0: Setting up our workspace
 * Fork and clone this repository
 * Open `index.html` and preview it.
-* You'll notice that the site is just a mess of images on a grey and white screen. You'll notice several posters: Audrey Hepburn, Beyoncé, Michael Jordan, New York, Picasso, Andy Warhol, and Woody Allen. The goal is to arrange each posted neatly and add a snazzy frame.You're going to be responsible for arranging the posters nicely on the wall and framing them.
+* You'll notice that the site is just a mess of images on a grey and white screen. You'll notice several posters: Audrey Hepburn, Beyoncé, Michael Jordan, New York, Picasso, Andy Warhol, and Woody Allen. The goal is to arrange each poster neatly and add a snazzy frame.You're going to be responsible for arranging the posters nicely on the wall and framing them.
 * You'll code your solution in `style.css`. Go ahead and open that file.
 * Now that you have `index.html`, `style.css`, and the **preview** of `index.html` open, drag `style.css` **right** and **down** like the image below:  
 
