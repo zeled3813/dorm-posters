@@ -104,7 +104,7 @@ And now we need to set the border - again `border: 15px solid red;`. You can cha
 
 And now for the New York City poster, we just need to add a border. Select the element with ID `newyork` and give it the same border as `woody`.
 
-If we wanted to _properly_ center these images on the wall, you'd need something you'll learn on the next section (so feel free to come back and try it!). For now, center the images as best you can by using `margin`.  Try to get it to look something like this:
+If we wanted to _properly_ center these images on the wall, you'd need something you'll learn on the next section (so feel free to come back and try it!). For now, center the images as best you can by using `margin`.  Try to get it to look something like this:  
 <img src="http://i.imgur.com/M4PIi9x.png">
 
 ### Step 3: "The Art History Major"
