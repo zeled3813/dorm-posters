@@ -53,8 +53,9 @@ And now to add the border:
 
 ### Step 2: "The Neurotic New Yorker"
 
-<img src="https://s3.amazonaws.com/after-school-assets/woody-poster.jpg" align="right" width="100px" hspace="10">
 <img src="https://s3.amazonaws.com/after-school-assets/newyork-poster.jpg" align="right" width="100px" hspace="10">
+<img src="https://s3.amazonaws.com/after-school-assets/woody-poster.jpg" align="right" width="100px" hspace="10">
+
 
 For these two posters, we want to frame them individually, but have the frames be the same size. Currently the Woody Allen poster is 171 x 253 pixels and the NYC poster is 236 x 364 pixels. If we want the frame to be the same size around both posters, we have to increase the size around the Woody Allen Poster, but inside the frame.  This is called `padding`, and we're going to use it to add space between the content and the border.  
 
