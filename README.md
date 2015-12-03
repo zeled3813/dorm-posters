@@ -84,7 +84,7 @@ And now we need to set the border - again `border: 15px solid red;`. You can cha
 
 And now for the New York City poster, we just need to add a border. Select the element with ID `newyork` and give it the same border as `woody`.
 
-If we wanted to _properly_ center these images on the wall, we'd need `relative` and `absolute` positioning (we'll learn that later). For now, center the images as best you can by using `margin`.  Try to get it to look something like this:
+If we wanted to _properly_ center these images on the wall, you'd need something you'll learn on the next section (so feel free to come back and try it!). For now, center the images as best you can by using `margin`.  Try to get it to look something like this:
 <img src="http://i.imgur.com/M4PIi9x.png">
 
 ### Step 3: "The Art History Major"
@@ -110,7 +110,7 @@ Now, our images are the same height and fit on the wall properly! Next up, we ne
 
 That class is what we want to use as our CSS selector and apply styling to.
 * Set a 20px wide, solid navy border around both images using the `border` property. 
-* Use `text-align:center;` to center our image. Yes, this technically works even though we're not centering text, but we'll get to advanced positiong later.  Right now we're just focusing on margin/padding/borders.
+* Use `text-align:center;` to center our image. Yes, this technically works even though we're not centering text, but we'll get to advanced positiong later.  Right now we're just focusing on margin/padding/borders.  _Feel free to go back to the **Neurotic New Yorker** and center these images the same way. Hint: it requires editing the HTML as well_.
 * Set the `background-color` to `white` to give our posters a matte. Without it, we would see the grey between the images and the border.
 
 The result should look like this:
