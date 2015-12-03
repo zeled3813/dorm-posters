@@ -63,16 +63,36 @@ If we want this image to be 236px wide, we need to add `32.5px` of padding to th
 
 In order to make the image `364px` tall, we need to add `55.5px` of padding to the bottom and the top.
 
-Luckily, we can give `padding` 1-4 inputs, and here's how it will use 1/2/3/4 numbers.
-```
-(1 input)  padding: all;
-(2 inputs) padding: topAndBottomNumber leftAndRightNumber;
-(3 inputs) padding: topNumber leftAndRightNumber bottomNumber;
-(4 inputs) padding: topNumber rightNumber bottomNumber leftNumber;
-```
+Luckily, we can give `padding` one, two, three, or four values. 
+
+#### One value
+<img src="https://i.imgur.com/yTSgH2K.png" align="right" height="75px">
+* `padding: 10px;`
+  * all four paddings are 10px
+
+#### Two values
+<img src="https://i.imgur.com/eLC41ac.png" align="right" height="75px">
+* `padding: 10px 5px;`
+  * top and bottom paddings are 10px
+  * right and left paddings are 5px
+
+#### Three values
+<img src="https://i.imgur.com/qMXHXok.png" align="right" height="75px">
+* `padding: 10px 5px 15px;`
+  * top padding is 10px
+  * right and left paddings are 5px
+  * bottom padding is 15px
+
+#### Four values
+<img src="https://i.imgur.com/fy6Mz6u.png" align="right" height="75px">
+* `padding: 10px 5px 15px 20px;`
+  * top padding is 10px
+  * right padding is 5px
+  * bottom padding is 15px
+  * left padding is 20px
 
 _(The same applies to_ `margin` _)_  
-For an in-depth explanation, [read more here](http://www.w3schools.com/cssref/pr_margin.asp).
+For an in-depth explanation, <a href="http://www.w3schools.com/cssref/pr_margin.asp" target="_blank">read more here</a>.
 
 Use the ID selector for `woody` to style the Woody Allen poster. Underneath the comment `/*"The Neurotic New Yorker"*/`:
 * Set the top and bottom padding `55.5px` and the left/right padding to `32.5px`.  You should be able to do this in one declaration (as explained above).
